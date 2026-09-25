@@ -1,8 +1,12 @@
 """Append-only Drive photo album. Existing page bytes and placements are immutable."""
 import copy
+import contextlib
 import hashlib
+import io
 import json
+import os
 import re
+import sys
 from pathlib import Path
 
 import gdown
@@ -14,6 +18,33 @@ from urllib3.util.retry import Retry
 
 ROOT = Path(__file__).resolve().parent
 EXTENSIONS = {'.jpg', '.jpeg', '.png', '.webp'}
+
+
+def photo_key(drive_id):
+    # Drive IDs are high-entropy identifiers. Store a one-way fingerprint,
+    # not an ID that can be placed directly in a public Drive URL.
+    return hashlib.sha256(drive_id.encode('utf-8')).hexdigest()
+
+
+def migrate_state(state):
+    result = copy.deepcopy(state)
+    version = result.get('schemaVersion', 1)
+    if version not in (1, 2):
+        raise RuntimeError('Unsupported album state schema')
+    if version == 1:
+        for page in result['pages']:
+            for photo in page['photos']:
+                photo['id'] = photo_key(photo['id'])
+                photo.pop('name', None)
+        result['schemaVersion'] = 2
+    return result
+
+
+def get_folder_id():
+    folder_id = os.environ.get('DRIVE_FOLDER_ID', '').strip()
+    if not re.fullmatch(r'[A-Za-z0-9_-]{10,}', folder_id):
+        raise RuntimeError('DRIVE_FOLDER_ID is missing or invalid; configure the repository Actions secret.')
+    return folder_id
 
 
 def write_json(path, data):
@@ -90,7 +121,7 @@ def append_pages(state, photos, config):
         template, boxes = boxes_for([p['width']/p['height'] for p in group], config['width'], config['height'])
         result['pages'].append({'number': number, 'file': f'pages/page_{number:04d}.jpg',
             'width': config['width'], 'height': config['height'], 'background': config['background'],
-            'template': template, 'photos': [dict(p, box=box) for p, box in zip(group, boxes)]})
+            'template': template, 'photos': [dict(id=p['id'], width=p['width'], height=p['height'], box=box) for p, box in zip(group, boxes)]})
     return result
 
 
@@ -131,25 +162,30 @@ def validate(state, output):
 
 def build():
     config = json.loads((ROOT/'album_config.json').read_text(encoding='utf-8'))
-    state = json.loads((ROOT/'album_state.json').read_text(encoding='utf-8'))
+    state = migrate_state(json.loads((ROOT/'album_state.json').read_text(encoding='utf-8')))
+    folder_id = get_folder_id()
     output, cache = ROOT/'public', ROOT/'.cache'
     cache.mkdir(exist_ok=True)
     validate(state, output)
-    listing = list_photos(config['folderId'])
+    listing = list_photos(folder_id)
     if not listing:
         raise RuntimeError('No supported photos found; keeping the last published album.')
     known = {p['id'] for page in state['pages'] for p in page['photos']}
     new = []
     for photo in listing:
-        if photo['id'] in known:
+        key = photo_key(photo['id'])
+        if key in known:
             continue
-        destination = cache/photo['id']
-        if not gdown.download(id=photo['id'], output=str(destination), quiet=True, use_cookies=False):
-            raise RuntimeError(f"Download failed: {photo['id']}")
+        destination = cache/key
+        # Suppress third-party output that may contain the source URL or ID.
+        with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+            downloaded = gdown.download(id=photo['id'], output=str(destination), quiet=True, use_cookies=False)
+        if not downloaded:
+            raise RuntimeError('Photo download failed; check source sharing and availability.')
         with Image.open(destination) as image:
             image = ImageOps.exif_transpose(image)
             image.load()
-            new.append(dict(photo, width=image.width, height=image.height))
+            new.append(dict(id=key, name=photo['name'], width=image.width, height=image.height))
     updated = append_pages(state, new, config)
     for page in updated['pages'][len(state['pages']):]:
         target = output/page['file']
@@ -166,4 +202,9 @@ def build():
 
 
 if __name__ == '__main__':
-    build()
+    try:
+        build()
+    except Exception as error:
+        # Public Actions logs must not expose Drive IDs via request tracebacks.
+        print(f'Album update failed ({type(error).__name__}). Check DRIVE_FOLDER_ID, Drive sharing, image validity, saved page hashes and the page limit.', file=sys.stderr)
+        sys.exit(1)

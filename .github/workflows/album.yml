@@ -32,6 +32,8 @@ jobs:
       - name: Test immutable layouts
         run: python -m unittest -v
       - name: Fetch new photos and generate pages
+        env:
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
         run: python build_album.py
       - name: Save permanent layout and page images
         run: |

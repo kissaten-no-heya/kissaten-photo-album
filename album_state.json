@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "pages": [
     {
       "number": 1,
@@ -10,8 +10,7 @@
       "template": "3-rows",
       "photos": [
         {
-          "id": "11pLAZidoUNBjUSz82glF2ePKyOKEG9yk",
-          "name": "VRChat_2026-09-20_02-20-20.529_7680x4320.png",
+          "id": "7f852d51216428b1bb2dbc5b4c1ac9f5bc5589ae28f180f88431fcc907034f02",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -22,8 +21,7 @@
           ]
         },
         {
-          "id": "1Ta0eaf7rhMyLieWIEtswv2LsGs1CHsnw",
-          "name": "VRChat_2026-09-20_02-25-11.577_7680x4320.png",
+          "id": "c0ea531cffcd2b07704ddf323872c32a5b5966934beb437d718e9cc67afc8a07",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -34,8 +32,7 @@
           ]
         },
         {
-          "id": "1f6wnOkEyR6jcbyzhkXDlzJMpYpuHAfGC",
-          "name": "VRChat_2026-09-20_02-31-22.037_7680x4320.png",
+          "id": "d8b23499811b1150efb837f4e392584b473aaf25f0eb119262cf62f0c2c92a08",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -57,8 +54,7 @@
       "template": "3-rows",
       "photos": [
         {
-          "id": "1WwbuTMCmkkqeCp5-jQLgFtrt4hteumda",
-          "name": "VRChat_2026-09-20_02-49-22.665_7680x4320.png",
+          "id": "bbf34059a444b5f4b7ff4046b529926132bb4269fd74d4419d8cdf86696620d8",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -69,8 +65,7 @@
           ]
         },
         {
-          "id": "1nO70tw3M9FlcM0Jj9thWP4JNh76sWoHV",
-          "name": "VRChat_2026-09-20_13-03-36.249_7680x4320.png",
+          "id": "961dbb57305957ea5d359002a728bd01df9f937755280d521ad4bda0fd1f3630",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -81,8 +76,7 @@
           ]
         },
         {
-          "id": "1j4XPXtXejesDMVb1W4Vn1wsmH0bJ6-QT",
-          "name": "VRChat_2026-09-20_13-14-10.483_7680x4320.png",
+          "id": "f4c58776d31fdac4c39550a7bf87058cd8bb2d96244dd54a2018d6688660d19e",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -104,8 +98,7 @@
       "template": "3-rows",
       "photos": [
         {
-          "id": "1RE2tY9jQzCPiM0zrq0ns3Jv8ZVa0ee2H",
-          "name": "VRChat_2026-09-20_18-59-01.295_7680x4320.png",
+          "id": "8f02d8fb81eb590d7ff70e0a9c105c752dd8cd5a27660789afdc40afb81ee102",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -116,8 +109,7 @@
           ]
         },
         {
-          "id": "1K0-JDMt29VYH2b7JipjYeYqFCMlrz3rB",
-          "name": "VRChat_2026-09-20_21-17-20.097_7680x4320.png",
+          "id": "9b275fc5d82c52210b9a09668c9ee9fa90e07cc3ce5c2610ccec634fe9e5ff5e",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -128,8 +120,7 @@
           ]
         },
         {
-          "id": "1pwR8wl7UB3xFOJRBrxI0V7R22pSw8y-A",
-          "name": "VRChat_2026-09-20_21-19-25.359_7680x4320.png",
+          "id": "d90219d5e0603b3081a929839666192aa98fef4077957f2759adf9aa2869d26a",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -151,8 +142,7 @@
       "template": "3-rows",
       "photos": [
         {
-          "id": "1BS9YK5SsuZWojFDcRbIGeMkO5EYygdIN",
-          "name": "VRChat_2026-09-21_00-54-56.048_7680x4320.png",
+          "id": "e9c4a8e43ed0fddda2ef7bd69b0a216702ea9d79e58ce29385ab39ff4798c6e5",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -163,8 +153,7 @@
           ]
         },
         {
-          "id": "1SrU2ul3kycwqU5Ta9giGmfL61Sv3qlr7",
-          "name": "VRChat_2026-09-22_23-16-27.552_7680x4320.png",
+          "id": "db6fba1698384257b011e2769df4d66aa8ef9627c45a5487703d52b1c98254ea",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -175,8 +164,7 @@
           ]
         },
         {
-          "id": "1qE-kaekx7RS8n8aK0YuBhFY_VBtnSkk6",
-          "name": "VRChat_2026-09-23_00-43-19.811_7680x4320.png",
+          "id": "496af1b0989c85677c16ef6517e1f118886de4edef7c6a18d21334509049d933",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -198,8 +186,7 @@
       "template": "3-rows",
       "photos": [
         {
-          "id": "1TE-dLtzXdMSr9bu86c-4NBx4eduqNhoX",
-          "name": "VRChat_2026-09-23_00-53-11.289_7680x4320.png",
+          "id": "147956ff300fd44bc47438eba924e4e49e42bf4e1af681fa509ab1fd0522ed63",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -210,8 +197,7 @@
           ]
         },
         {
-          "id": "1gsiN8dcQyxPBam3SApzyRq1VYogM3MWw",
-          "name": "VRChat_2026-09-23_01-01-36.672_7680x4320.png",
+          "id": "e7b5d8e1a159a4abd9987b630c858f195101bfced41a307b85f43ea389a5c0e2",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -222,8 +208,7 @@
           ]
         },
         {
-          "id": "1ni4jwzXZYraIEMs9PP5lRiCKPzC-Nh2o",
-          "name": "VRChat_2026-09-23_01-02-36.698_7680x4320.png",
+          "id": "b97ee338fd2682dd5654bbf1087987fdc934e7ef76f08e62b05832ffa9bf9f1f",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -245,8 +230,7 @@
       "template": "3-rows",
       "photos": [
         {
-          "id": "1JwUPcdfASErivFaJyEWQP8HsOV6Ez-Ny",
-          "name": "VRChat_2026-09-23_01-09-38.545_7680x4320.png",
+          "id": "fb9cc389e232fb9dffa2a62952dd7ba6ce3e9f8daa474af1514537fd85f3c689",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -257,8 +241,7 @@
           ]
         },
         {
-          "id": "1tE1zXQjOHAgKTclN-uGFKHAehxNwF_Wl",
-          "name": "VRChat_2026-09-23_02-09-45.367_7680x4320.png",
+          "id": "c8dee7fee6b2b4ef3c6e10079dbb6cb08a5cafc441c863b811332ea02e53d385",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -269,8 +252,7 @@
           ]
         },
         {
-          "id": "1iMCHIF-Vff1AfyQvpAzUjrVN7PlKRRUP",
-          "name": "VRChat_2026-09-23_02-50-36.424_7680x4320.png",
+          "id": "15adac01a0ec61042b2c29d2b9c5403d8a9a2ad58be1efc0a229fd37c12594de",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -292,8 +274,7 @@
       "template": "3-rows",
       "photos": [
         {
-          "id": "1B3laMn02MHsBixwKlPRyvZv63Dh7946m",
-          "name": "VRChat_2026-09-23_02-52-04.636_7680x4320.png",
+          "id": "64b6cf7d069f1619e9e361d928462501fa38fee94365c8fd547f96c76f28ae7f",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -304,8 +285,7 @@
           ]
         },
         {
-          "id": "1KHVSlJHINTc0DFsz6WH3r_UTEWpbJmfm",
-          "name": "VRChat_2026-09-23_08-21-51.522_7680x4320.png",
+          "id": "1c1d7a5bc72b7bf56e7778d51115618a992b68f9f0b68b28cb2454735c7a0d18",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -316,8 +296,7 @@
           ]
         },
         {
-          "id": "1AcZiEFsE8ILoTeIw209S1RRHizXFKzfa",
-          "name": "VRChat_2026-09-23_10-04-08.478_7680x4320.png",
+          "id": "c44e35d49c8df26b66fed62a7578f2b3e33032690f096cceb05fa9a0f3fdec46",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -339,8 +318,7 @@
       "template": "3-rows",
       "photos": [
         {
-          "id": "136AEqBV6oC4eVijqDnDuhRgABxD11A_v",
-          "name": "VRChat_2026-09-23_21-18-31.239_7680x4320.png",
+          "id": "0246da6c2373a98759adfd6a754fbf6d4c1d6e8b78b242f2fb8ffcf9157afbef",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -351,8 +329,7 @@
           ]
         },
         {
-          "id": "1Ve7NWWI33OqF_rH3rmL0YiALsQ2Anvze",
-          "name": "VRChat_2026-09-23_21-39-57.232_7680x4320.png",
+          "id": "a4475826421d064a23833d5e3ea98b26a0313080ba62e179a0f0bc4c5cf2c3de",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -363,8 +340,7 @@
           ]
         },
         {
-          "id": "1ISCULXvmChGE_M7-BTvckM_Alhl3gEfu",
-          "name": "VRChat_2026-09-23_21-42-34.417_3840x2160.png",
+          "id": "34bde0f7a1b0dbcc90e636d359cce391813f44ac58fed821d0390280fc4fc176",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -386,8 +362,7 @@
       "template": "3-rows",
       "photos": [
         {
-          "id": "1bPdr6_Lba2bzbpM16DnIqsbh8UgZEl1I",
-          "name": "VRChat_2026-09-23_21-45-41.472_3840x2160.png",
+          "id": "76a35083fda1413fc7fb82be513ff09f9b381ca91c1864bab33f9e45ada2f2ff",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -398,8 +373,7 @@
           ]
         },
         {
-          "id": "1t8LmNQhyt0bzQIXGczaN7LMU7gFZawCd",
-          "name": "VRChat_2026-09-23_23-35-03.225_3840x2160.png",
+          "id": "24296a133518449affa722036aaa61e98b9daa54df99f193041839c1ef1df6a8",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -410,8 +384,7 @@
           ]
         },
         {
-          "id": "1TA_-uevfybbVPnu4jRrALyeiaKQoPQbZ",
-          "name": "VRChat_2026-09-23_23-46-21.830_3840x2160.png",
+          "id": "44ecbe8899d00d614495154642af61db7e78e80a32f6bbebd964a3d083ddf4a2",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -433,8 +406,7 @@
       "template": "3-rows",
       "photos": [
         {
-          "id": "1PM5Qov_r8IgPFKJ_aaEnBuMWN8WdISqJ",
-          "name": "VRChat_2026-09-24_03-10-17.540_3840x2160.png",
+          "id": "e1ec0a1aef1427032151f8395f1e5c7532373282fe0be4e30c3c68373d06257b",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -445,8 +417,7 @@
           ]
         },
         {
-          "id": "1J2jIHnqDfdIaHw9ILDQmxfJcH4cD4ltR",
-          "name": "VRChat_2026-09-25_01-31-56.353_3840x2160.png",
+          "id": "dc3026772a71e7393e86997c830a28905bef5f2aa57b921915e4bb91f5bbd6a3",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -457,8 +428,7 @@
           ]
         },
         {
-          "id": "1UUhIgDtgru2iBRIBHymrofwJ7d0orWRi",
-          "name": "VRChat_2026-09-25_01-44-08.523_3840x2160.png",
+          "id": "e0669065697de7ff7bff4ffd2f4b1f6e89086d7c8140f637c694e1bfa23ed65b",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -480,8 +450,7 @@
       "template": "2-rows",
       "photos": [
         {
-          "id": "1Or1j5lSIx1EQBxSbzXNjyOreijN980ys",
-          "name": "VRChat_2026-09-25_02-11-51.174_3840x2160.png",
+          "id": "7c5ae49875cf9f449bc7f2c7f15c77e98009d607ed9fd54e9e3e1cb65b6bd64f",
           "width": 2000,
           "height": 1125,
           "box": [
@@ -492,8 +461,7 @@
           ]
         },
         {
-          "id": "1h6lOwH32-6a5J1aWWXli9ttvhctIKbxe",
-          "name": "VRChat_2026-09-25_03-14-33.179_3840x2160.png",
+          "id": "0a55cf6039721a401706bc3e206089db80f900e023754971b79c7dbd59c9c745",
           "width": 2000,
           "height": 1125,
           "box": [
