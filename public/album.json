@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "pageCount": 11,
+  "photoCount": 32,
+  "pages": [
+    {
+      "number": 1,
+      "url": "https://kissaten-no-heya.github.io/kissaten-photo-album/pages/page_0001.jpg",
+      "sha256": "2b0ee94a657139914bbc54288e48822678fbc8549a161bf22f8d0b9738e949fa"
+    },
+    {
+      "number": 2,
+      "url": "https://kissaten-no-heya.github.io/kissaten-photo-album/pages/page_0002.jpg",
+      "sha256": "9dee99a0d4061a709ce82a91c717c65ac3b0dc0e3470eaca949f773ab10738f5"
+    },
+    {
+      "number": 3,
+      "url": "https://kissaten-no-heya.github.io/kissaten-photo-album/pages/page_0003.jpg",
+      "sha256": "bc6a47b9784956fda14d9279440d136b0c32af8f5f82499909216aa4fa1a3fb3"
+    },
+    {
+      "number": 4,
+      "url": "https://kissaten-no-heya.github.io/kissaten-photo-album/pages/page_0004.jpg",
+      "sha256": "7775b415d2290eae6774c4a312add230a9c80c117ef422920aea301c55db7480"
+    },
+    {
+      "number": 5,
+      "url": "https://kissaten-no-heya.github.io/kissaten-photo-album/pages/page_0005.jpg",
+      "sha256": "a4fdadd74074ec7ddf1a9b1b3ad1597da84c65558fccad9af6bb06748fa4125a"
+    },
+    {
+      "number": 6,
+      "url": "https://kissaten-no-heya.github.io/kissaten-photo-album/pages/page_0006.jpg",
+      "sha256": "00313235de553ad7f00cd62d0bb3dbb63c57d2e8d74219e7339ec9bfd44f8b92"
+    },
+    {
+      "number": 7,
+      "url": "https://kissaten-no-heya.github.io/kissaten-photo-album/pages/page_0007.jpg",
+      "sha256": "24b6a30dc56504da4200b08f795237177c1ace80207c57fd6e1555b91a75c0e7"
+    },
+    {
+      "number": 8,
+      "url": "https://kissaten-no-heya.github.io/kissaten-photo-album/pages/page_0008.jpg",
+      "sha256": "d6161e4d8ed540f299d5a4f3ced7710257bfc2c37114a02f62d6347966daa38b"
+    },
+    {
+      "number": 9,
+      "url": "https://kissaten-no-heya.github.io/kissaten-photo-album/pages/page_0009.jpg",
+      "sha256": "eb65f34773437bb8dd692074aff550880b74cd1d1158d061376e8c68abf4abde"
+    },
+    {
+      "number": 10,
+      "url": "https://kissaten-no-heya.github.io/kissaten-photo-album/pages/page_0010.jpg",
+      "sha256": "9410b13742534606657ea8f60e0489560d2014fae6bf503e3427f752ab5247ec"
+    },
+    {
+      "number": 11,
+      "url": "https://kissaten-no-heya.github.io/kissaten-photo-album/pages/page_0011.jpg",
+      "sha256": "856fc721b3943c5b217909904490fa63238104bdadc0f60ef9dcb86c71874cf0"
+    }
+  ]
+}
